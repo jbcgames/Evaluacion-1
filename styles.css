@@ -12,12 +12,14 @@
     padding: 0px;
     margin-bottom: 1px;
     margin-top: 25px;
+    
 }
 #titulos #title2{
     font-size: 43px;
     margin-top: 15px;
-    color:rgb(14, 13, 13);
+    color:rgba(14, 13, 13, 0.616);
     margin-bottom: 1px;
+    font-weight: bold;
 }
 html{
     background-color: #fafafa;
@@ -27,22 +29,57 @@ html{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    
 }
   
 .box {
-    width: 200px;
+    width: 270px;
     height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
+    justify-content: left;
+    align-items: left;
     padding: 20px;
-    text-align: center;
+    text-align: left;
+    border: 1px solid rgba(173, 170, 170, 0.829);
+    box-shadow: 1px 1px 15px #a3a5ae;
+    border-radius: 2%;
+    
 }
-  
+img{
+    width: 20%;
+    margin-left: 210px;
+    margin-top: 20px;
+}
 .middle {
+    margin-top: -120px;
     display: flex;
-    gap: 20px;
+    gap: 380px;
 }
-  
+.ended{
+    margin-top: -130px;
+}
+#box1{
+    border-top: 4px solid #ea5353;
+}
+#box2{
+    border-top: 4px solid #62dada;
+}
+#box3{
+    border-top: 4px solid #4a9dfc;
+}
+#box4{
+    border-top: 4px solid #fc9b1d;
+}
+#Tc{
+    font-family: 'Syabil', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.76);
+}
+#Dc{
+    font-family: 'Arial', sans-serif;
+    margin-top: -7px;
+    color:rgba(0, 0, 0, 0.295);
+    font-family: 'Shapirit Regular', sans-serif;
+}
