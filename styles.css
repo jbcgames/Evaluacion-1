@@ -2,11 +2,13 @@
     text-align: center;
     font-family: 'Shapirit Regular', sans-serif;
     color:rgb(197, 189, 189);
-    margin-top: 18px;
-    font-size: 19px;
+    margin-top: 11px;
+    font-size: 15px;
+    margin-bottom: 60px;
+    text-shadow: 1px 1px rgb(197, 189, 189);
 }
 #titulos #title{
-    font-size: 40px;
+    font-size: 36px;
     color:rgb(197, 189, 189);
     border: 0px;
     padding: 0px;
@@ -15,8 +17,8 @@
     
 }
 #titulos #title2{
-    font-size: 43px;
-    margin-top: 15px;
+    font-size: 36px;
+    margin-top: 5px;
     color:rgba(14, 13, 13, 0.616);
     margin-bottom: 1px;
     font-weight: bold;
